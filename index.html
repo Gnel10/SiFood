@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiFood</title>
+    <link rel="icon" href="./photo/aside_01.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="left-side">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item1">
+          <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-skype"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-youtube"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+      </ul>
+    </div>
+    </div>
+<div class="right-side">
+      <ul class="navbar-nav1">
+        <li class="nav-item2">
+          <a class="nav-link" href="#">Default Welcome Msg !</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Account
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"><i class="far fa-address-book"></i>  Register</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt"></i>   Login</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-heart"></i>   Wish List (0)</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            $ Currency  
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">€ Euro</a>
+            <a class="dropdown-item" href="#">₹ Indian Rupee</a>
+            <a class="dropdown-item" href="#">£ Pound Sterling</a>
+            <a class="dropdown-item" href="#">$ US Dollar</a>
+          </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="./svg/united-kingdom.svg" alt="" style="width: 19px;">   Language
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"><img src="./svg/russia.svg" alt="" style="width: 18px;">  Russian</a>
+              <a class="dropdown-item" href="#"><img src="./svg/united-kingdom.svg" alt="" style="width: 18px;">  English</a>
+              <a class="dropdown-item" href="#"><img src="./svg/armenia.svg" alt="" style="width: 18px;">  Armenian</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+  </div>
+  </nav>
+  <header>
+    <div class="container">
+    <div class="left">
+      <img src="./photo/logo.jpg" alt="">
+    </div>
+<div class="middle">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle bg-light text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        All Categories
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">All Categories</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <a class="dropdown-item" href="#">Separated link</a>
+        <a class="dropdown-item" href="#">All Categories</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <a class="dropdown-item" href="#">Separated link</a>
+        <a class="dropdown-item" href="#">Decor</a>
+        <a class="dropdown-item" href="#">Printers</a>
+        <a class="dropdown-item" href="#">Macs</a>
+        <a class="dropdown-item" href="#">Windows</a>
+        <a class="dropdown-item" href="#">Components</a>
+        <a class="dropdown-item" href="#">Monitors</a>
+        <a class="dropdown-item" href="#">Trackballs</a>
+      </div>
+    </div>
+         <div class="search">
+           <input type="search" placeholder="Search">
+         <button><i class="fas fa-search" style="color: white;"></i></button>
+        </div>
+      </div>
+         <div class="right">
+         <div>
+           <a href=""><img src="./photo/icon-call.png" alt=""></a><span>Call us:</span><br><span> 12345678</span>
+       </div>
+       <div>
+         <span class="round"><p> 0</p></span>
+           <a href=""><img src="./photo/carti_sale_menu.png" alt=""></a>
+           <span>My Cart</span><br><span>$0.00</span>
+       </div>
+       </div>
+</div>
+</header>
+<main>
+  <div class="box-section">
+    <div class="container">
+         <div class="dropdown">
+             <div class="row">
+                 <div class="col-12">
+                   <div class="list-group" id="list-tab" role="tablist">
+                     <a class="list-group-item list-group-item-action active bg-danger" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><i class="fas fa-bars"></i>  All Categories</a>
+                     <a class="list-group-item list-group-item-action"><img src="./photo/burger-1.png" alt=""> Beauty</a>
+                     <a class="list-group-item list-group-item-action"><img src="./photo/burger-2.png" alt=""> Beauty & Spa</a>
+                     <a class="list-group-item list-group-item-action"><img src="./photo/burger-3.png" alt=""> Shoes</a>
+                     <a class="list-group-item list-group-item-action"><img src="./photo/burger-4.png" alt=""> Smart Phone</a>
+                     <a class="list-group-item list-group-item-action"><img src="./photo/burger-5.png" alt=""> Desktops</a>
+                     <a class="list-group-item list-group-item-action"><img src="./photo/burger-3.png" alt=""> Laptops</a>
+                     <a class="list-group-item list-group-item-action"><img src="./photo/burger-3.png" alt=""> Components</a>
+                     <a class="list-group-item list-group-item-action"><img src="./photo/burger-9.png" alt=""> Tablets</a>
+                     <a class="list-group-item list-group-item-action">✚ More Categories</a>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="tab-content" id="nav-tabContent">
+                     <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"></div>
+                     <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"></div>
+                     <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"></div>
+                     <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"></div>
+                    </div>
+                 </div>
+             </div>
+         </div>
+         <div class="menu-list">
+          <ul>
+              <li><a href="">HOME</a></li>
+              <li><a href="">SPECIALS</a></li>
+              <li><a href="">CONTACT US</a></li>
+              <li><a href="">SITE MAP</a></li>
+              <li><a href="">BRAND</a></li>
+          </ul>
+        </div>
+   </div>
+  </div>
+  <div class="slide-box">
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./photo/burger_carusel_01.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./photo/burger_carusel_02.jpg" alt="Second slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+     </div>
+   </div>
+   <div class="food-list">
+   <div class="top">
+    <div class="container">
+       <div>
+        <h2>Treding Products</h2>
+      </div>
+        <div class="ul-list">
+        <ul>
+            <li><a href="">FEATURED</a></li>
+            <li><a href="">BESTSELLER</a></li>
+            <li><a href="">LATEST</a></li>
+        </ul>
+      </div>
+      <div>
+        <button>⮜</button>
+        <button>⮞</button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+   <hr>
+   </div>
+  <div class="down">
+    <div class="container">
+    <div class="card-group">
+        <div class="card">
+         <span> <i class="far fa-heart"></i></span>
+         <span> <i class="fas fa-balance-scale"></i></span>
+          <span><i class="far fa-eye"></i></span>
+          <img class="card-img-top" src="./photo/before-1.jpg" alt="Card image cap">
+          <img class="img-after" src="./photo/after-1.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">MacBook</h5>
+            <p class="card-text">$602.00</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <span> <i class="far fa-heart"></i></span>
+          <span> <i class="fas fa-balance-scale"></i></span>
+           <span><i class="far fa-eye"></i></span>
+          <img class="card-img-top" src="./photo/before-2.jpg" alt="Card image cap">
+          <img class="img-after" src="./photo/after-2.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">iMac</h5>
+            <p class="card-text">$122.00</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <span> <i class="far fa-heart"></i></span>
+          <span> <i class="fas fa-balance-scale"></i></span>
+           <span><i class="far fa-eye"></i></span>
+          <img class="card-img-top" src="./photo/before-3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Apple Cinema 30"</h5>
+            <p class="card-text">$122.00</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+     <div class="card">
+         <span> <i class="far fa-heart"></i></span>
+         <span> <i class="fas fa-balance-scale"></i></span>
+          <span><i class="far fa-eye"></i></span>
+          <img class="card-img-top" src="./photo/before-4.jpg" alt="Card image cap">
+          <img class="img-after" src="./photo/after-4.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">HP LP3065</h5>
+            <p class="card-text">$122.00</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <span> <i class="far fa-heart"></i></span>
+          <span> <i class="fas fa-balance-scale"></i></span>
+          <span><i class="far fa-eye"></i></span>
+          <img class="card-img-top" src="./photo/before-5.jpg" alt="Card image cap">
+          <img class="img-after" src="./photo/after-5.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">HTC Touch HD</h5>
+            <p class="card-text">$122.00</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="banner">
+  <div class="container">
+      <div class="item1"><span></span></div>
+      <div class="item2"><span></span></div>
+      <div class="item3"><span></span></div>
+      <div class="item4"><span></span></div>
+      <div class="item5"><span></span></div>
+  </div>
+</div>
+<div class="part-box">
+  <div class="container">
+  <div>
+      <i class="fas fa-box-open" style="font-size: 35px;"></i>
+      <h6>FREE DELIVERY</h6><br>
+      <p>Free shipping on all US orders</p>
+  </div>
+  <div>
+      <i class="fas fa-comment-dollar" style="font-size: 35px;"></i>
+      <h6>MONEY BACK GUARANTEE</h6><br>
+      <p>Shocking discount every sunday</p>
+  </div>
+  <div>
+      <i class="fas fa-headset" style="font-size: 35px;"></i>
+      <h6>ONLINE SUPPORT</h6><br>
+      <p>We support online 24 hours a day</p>
+  </div>
+  </div>
+</div>
+<div class="latest-blog">
+  <div class="container">
+    <div class="top">
+    <h5>Latest Blog</h5>
+    <div class="controls-top">
+      <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+          class="fas fa-chevron-right"></i></a>
+    </div>
+  </div>
+   <hr>
+  <div class="buttom">
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+<ol class="carousel-indicators">
+  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+  <li data-target="#multi-item-example" data-slide-to="1"></li>
+</ol>
+<div class="carousel-inner" role="listbox">
+  <div class="carousel-item active">
+    <div class="col-md-3" style="float:left">
+     <div class="card mb-2">
+        <img class="card-img-top"
+          src="./photo/end_blog_pic_01.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Nullam Laoreet Lobortis Ligula</h5>
+          <p class="card-text"><small class="text-muted">0 COMMENTS <span>︱</span> SUNDAY 01ST JULY 2018</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3" style="float:left">
+      <div class="card mb-2">
+        <img class="card-img-top"
+          src="./photo/end_blog_pic_02.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Aenean commodo volutpat ornare</h5>
+          <p class="card-text"><small class="text-muted">4 COMMENTS <span>︱</span> SUNDAY 01ST JULY 2018</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3" style="float:left">
+      <div class="card mb-2">
+        <img class="card-img-top"
+          src="./photo/end_blog_pic_03.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Donec vestibulum sem vitae</h5>
+          <p class="card-text"><small class="text-muted">2 COMMENTS <span>︱</span> SUNDAY 01ST JULY 2018</small></p>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-3" style="float:left">
+     <div class="card mb-2">
+        <img class="card-img-top"
+          src="./photo/end_blog_pic_04.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Sed mi libero, placerat eu gravida</h5>
+          <p class="card-text"><small class="text-muted">0 COMMENTS <span>︱</span> SUNDAY 01ST JULY 2018</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <div class="col-md-3" style="float:left">
+      <div class="card mb-2">
+        <img class="card-img-top"
+          src="./photo/end_blog_pic_05.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Duis blandit tristique augue, et dignissim</h5>
+          <p class="card-text"><small class="text-muted">0 COMMENTS <span>︱</span> SUNDAY 01ST JULY 2018</small></p>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+  </div>
+ </div> 
+</div>
+ <div class="transition-box">
+  <div class="container">
+    <div class="footer-logo">
+    <ul class="transition">
+    <li><img src="./photo/footer_logo_01.png" alt=""></li>
+    <li><img src="./photo/footer_logo_02.png" alt=""></li>
+    <li><img src="./photo/footer_logo_03.png" alt=""></li>
+    <li><img src="./photo/footer_logo_04.png" alt=""></li>
+    <li><img src="./photo/footer_logo_05.png" alt=""></li>
+    <li><img src="./photo/footer_logo_06.png" alt=""></li>
+    <li><img src="./photo/footer_logo_07.png" alt=""></li>
+    <li><img src="./photo/footer_logo_08.png" alt=""></li>
+    <li><img src="./photo/footer_logo_09.png" alt=""></li>
+    <li><img src="./photo/footer_logo_10.png" alt=""></li>
+    <li><img src="./photo/footer_logo_11.png" alt=""></li>
+  </ul>
+</div>
+  </div>
+  <div class="newsletter">
+    <div class="container">
+      <div>
+        <h3>Newsletter</h3>
+        <p>Sign up for our newsletter</p>
+      </div>
+      <div>
+        <input type="search" placeholder="Your email address">
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </div>
+ </div>
+ <footer>
+  <div class="footer-top">
+<div class="container">
+   <div>
+     <ul>
+       <h5>Contact Us</h5>
+        <h6></h6>
+       <li>
+         <i class="fas fa-map-marker-alt"></i>
+         <a>42 Dream House, Dreammy <br> street, 7131 Dreamville, USA</a>
+        </li>
+       <li>
+        <i class="fas fa-envelope"></i>
+        <a href="">company@gmail.com</a>
+       </li>
+       <li>
+        <i class="fas fa-phone-alt"></i>
+        <a href="">(+91) - 540-025-1243</a>
+       </li>
+       <li>
+        <i class="fas fa-fax"></i>
+        <a href="">fax@company.com</a>
+       </li>
+     </ul>
+   </div>
+   <div>
+     <ul>
+       <h5>Extras</h5>
+       <h6></h6>
+       <li>Brands</li>
+       <li>Gift Certificates</li>
+       <li>Affiliate</li>
+       <li>Specials</li>
+       <li>Contact Us</li>
+     </ul>
+   </div>
+   <div>
+     <ul>
+       <h5>Information</h5>
+       <h6></h6>
+       <li>About Us</li>
+       <li>Delivery Information</li>
+       <li>Privacy Policy</li>
+       <li>Terms & Conditions</li>
+       <li>Contact Us</li>
+       <li>Site Map</li>
+     </ul>
+   </div>
+   <div>
+     <ul>
+       <h5>My Account</h5>
+       <h6></h6>
+       <li>My Account</li>
+       <li>Order History</li>
+       <li>Wish List</li>
+       <li>Newsletter</li>
+       <li>Returns</li>
+     </ul>
+   </div>
+  </div>
+</div>
+  <hr>
+  <div class="footer-down">
+    <div><img src="./photo/payment.png" alt=""></div> 
+    <div><p>Powered By OpenCart SiFood © 2021</p></div>
+  </div>
+ </div>
+</footer>
+</main>
+</body>
+</html>
